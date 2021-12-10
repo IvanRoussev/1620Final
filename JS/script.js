@@ -1,3 +1,7 @@
+
+
+/* Thanks Nathan for the amazing term, you are very helpful and are an overall amazing instructor. Keep on rock climbing  :)))) */
+
 let dark_theme = document.querySelector('.toggle');
 
 dark_theme.addEventListener('click', (e) => {
