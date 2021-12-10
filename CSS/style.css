@@ -35,7 +35,13 @@
 }
 
 .dark-theme {
-  --navbg:          var(--)
+  --navbg:          var(--black);
+  --navLinkHoverBg: var(--dark_grey);
+  --mainBg:         var(--dark_grey);
+  --fontColor:      var(--black);
+  --navLinkColor:   var(--dark_orange);
+  --formBG:         var(--dark_orange);
+  --formInput:      var(--dark_grey);
 
 
 
