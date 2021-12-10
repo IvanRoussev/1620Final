@@ -9,6 +9,11 @@
   --black:       #23262E;
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
+  /*Dark colors below */
+  --black:         #082032;
+  --dark_grey:     #2C394B;
+  --dark_blue:     #334756;
+  --dark_orange:   #FF4C29;   
 }
 
 * {
@@ -27,6 +32,14 @@
   --navLinkColor:   var(--lightCoral);
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
+}
+
+.dark-theme {
+  --navbg:          var(--)
+
+
+
+
 }
 
 /* toggle styles begin */
