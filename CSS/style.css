@@ -1,43 +1,50 @@
-
-
-@media screen and (max-width: 600px){
-  .myForm{
+@media screen and (max-width: 600px) {
+  .myForm {
     display: flex;
     flex-direction: column;
     align-content: center;
     width: 500px;
     height: 500px;
   }
-    
-  h1 {
-    font-size: 1rem;
-  }
-  
+
+  h1,
   h2 {
-    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+    color: var(--fontColor);
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  #contact {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
 }
-
-
-}
-
-
 
 :root {
-  --navHeight:   80px;
-  --yellow:      #F9C74F;
-  --lightCoral:  #EF6E6B;
-  --apricot:     #FFD6BA;
-  --lightGreen:  #BEE3DB;
-  --darkGreen:   #527A78;
-  --white:       #FAF9F9;
-  --black:       #23262E;
-  --blueGray:    #555B6E;
-  --romanSilver: #757E95;
+  --navHeight: 80px;
+  --yellow: #f9c74f;
+  --lightCoral: #ef6e6b;
+  --apricot: #ffd6ba;
+  --lightGreen: #bee3db;
+  --darkGreen: #527a78;
+  --white: #faf9f9;
+  --black: #23262e;
+  --blueGray: #555b6e;
+  --romanSilver: #757e95;
   /*Dark colors below */
-  --black:         #082032;
-  --dark_grey:     #2C394B;
-  --dark_blue:     #334756;
-  --dark_orange:   #FF4C29;   
+  --black: #082032;
+  --dark_grey: #2c394b;
+  --dark_blue: #334756;
+  --dark_orange: #ff4c29;
 }
 
 * {
@@ -49,27 +56,23 @@
 
 /* notice how the default light theme colors are set by this class. */
 .light-theme {
-  --navBg:          var(--lightGreen);
+  --navBg: var(--lightGreen);
   --navLinkHoverBg: var(--white);
-  --mainBg:         var(--white);
-  --fontColor:      var(--black);
-  --navLinkColor:   var(--lightCoral);
-  --formBG:         var(--lightCoral);
-  --formInput:      var(--white);
+  --mainBg: var(--white);
+  --fontColor: var(--black);
+  --navLinkColor: var(--lightCoral);
+  --formBG: var(--lightCoral);
+  --formInput: var(--white);
 }
 
 .dark-theme {
-  --navbg:          var(--black);
+  --navbg: var(--black);
   --navLinkHoverBg: var(--dark_grey);
-  --mainBg:         var(--dark_grey);
-  --fontColor:      var(--black);
-  --navLinkColor:   var(--dark_orange);
-  --formBG:         var(--dark_orange);
-  --formInput:      var(--dark_grey);
-
-
-
-
+  --mainBg: var(--dark_grey);
+  --fontColor: var(--black);
+  --navLinkColor: var(--dark_orange);
+  --formBG: var(--dark_orange);
+  --formInput: var(--dark_grey);
 }
 
 /* toggle styles begin */
@@ -89,7 +92,7 @@
 }
 
 .toggle:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   z-index: 2;
@@ -165,7 +168,8 @@ section {
   height: calc(100vh - var(--navHeight));
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Poppins, sans-serif;
   color: var(--fontColor);
 }
@@ -198,22 +202,22 @@ label {
 }
 
 .message > textarea {
- flex: 1; 
- min-width: 45rem;
- font-size: 1.8rem;
+  flex: 1;
+  min-width: 45rem;
+  font-size: 1.8rem;
 }
 
 .contact {
-  flex: 1; 
+  flex: 1;
   order: 1;
-  margin-right: 2em; 
+  margin-right: 2em;
 }
 
 .contact input {
   width: 100%;
 }
 
-input[type=text]:focus {
+input[type='text']:focus {
   border: none;
   outline: none;
 }
@@ -227,6 +231,6 @@ input[type=text]:focus {
 }
 
 .contact button {
- background: var(--darkGreen);
- color: var(--white);
+  background: var(--darkGreen);
+  color: var(--white);
 }
