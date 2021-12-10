@@ -1,3 +1,25 @@
+
+
+@media screen and (max-width: 600px){
+  .myForm{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+  }
+    
+h1{
+  size: 10px;
+}
+
+
+
+
+  }
+
+
+
 :root {
   --navHeight:   80px;
   --yellow:      #F9C74F;
